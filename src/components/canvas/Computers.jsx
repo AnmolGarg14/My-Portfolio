@@ -23,7 +23,9 @@ const Computers = () => {
         object={computer.scene}
         scale={0.75}
         position={[0, -4, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        // position-y={-4}
+        // rotation={[-0.01, -0.2, -0.1]}
+        rotation-y={-0.2}
       />
     </mesh>
   );
@@ -68,10 +70,9 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Computers />
-
-        <Preload all />
       </Suspense>
 
+      <Preload all />
     </Canvas>
   );
 };
