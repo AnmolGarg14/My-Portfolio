@@ -69,9 +69,10 @@ const ComputersCanvas = () => {
         />
         <Computers />
 
-        <Preload all />
+        
       </Suspense>
 
+      <Preload all />
     </Canvas>
   );
 };
