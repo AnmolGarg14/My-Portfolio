@@ -68,9 +68,10 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Computers />
+
+        <Preload all />
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };
