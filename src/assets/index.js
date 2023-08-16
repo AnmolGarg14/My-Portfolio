@@ -18,16 +18,19 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import c from "./tech/c.png";
+import mysql from "./tech/mysql.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import powerbi from "./tech/powerbi.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import internnexus from "./company/internnexus.png";
 import technohacks from "./company/technohacks.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import foodweb from "./foodweb.png";
+import easyshare from "./easyshare.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -54,9 +57,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  powerbi,
+  c,
+  mysql,
   internnexus,
   technohacks,
-  carrent,
-  jobit,
+  foodweb,
+  easyshare,
   tripguide,
 };

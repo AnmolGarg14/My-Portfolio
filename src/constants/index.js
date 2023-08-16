@@ -4,22 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  powerbi,
+  c,
+  mysql,
   internnexus,
   technohacks,
-  carrent,
-  jobit,
-  tripguide,
+  foodweb,
+  easyshare,
   threejs,
 } from "../assets";
 
@@ -44,15 +43,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Analyst",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Project Coordinator",
     icon: creator,
   },
 ];
@@ -71,16 +70,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C++",
+    icon: c,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -95,6 +90,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "MySql",
+    icon: mysql,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -107,8 +106,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "power bi",
+    icon: powerbi,
   },
 ];
 
@@ -118,12 +117,11 @@ const experiences = [
     company_name: "TechnoHacks",
     icon: technohacks,
     iconBg: "#E6DEDD",
-    date: "Aug 2023 - Sept 2023",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in the development and upkeep of web applications, utilizing a mix of technologies to accomplish various tasks.",
+      "Demonstrating capability in web application development through the successful execution of assigned responsibilities.",
+      "Implementing responsive design techniques to guarantee smooth user experiences across different browsers.",
     ],
   },
   {
@@ -170,9 +168,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food Ordering",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to browse, order, and manage a variety of delicious dishes from the restaurant, offering a convenient and efficient solution for satisfying culinary cravings.",
     tags: [
       {
         name: "react",
@@ -186,52 +184,61 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodweb,
+    source_code_link:
+      "https://github.com/AnmolGarg14/Food-Ordering-Web-Application",
   },
   {
-    name: "Trip Guide",
+    name: "File Sharing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that enables users to upload, send, and manage files of various types and sizes, offering a streamlined and effective solution for transferring digital content.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "javascript",
+        color: "orange-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: easyshare,
+    source_code_link: "https://github.com/AnmolGarg14/EasyShare",
   },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
