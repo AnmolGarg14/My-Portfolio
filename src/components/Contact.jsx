@@ -79,7 +79,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8 max-xs:mb-6'
+          className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -122,10 +122,10 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
 
-          <div className='absolute pt-80 mt-52 ml-80 flex justify-center m-3 card-img_hover'>
+          <div className='relative min-xs:ml-1 inset-0 flex flex-col'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex flex-col justify-center items-center cursor-pointer'
             >
               <img
                 src={github}
