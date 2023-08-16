@@ -121,20 +121,6 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-
-          <div className='relative min-xs:ml-1 inset-0 flex flex-col'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex flex-col justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          </div>
-
         </form>
       </motion.div>
 
@@ -144,6 +130,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
   );
 };

@@ -19,6 +19,27 @@
   display: block;
 }
 
+.instagram-gradient {
+  /* background: -webkit-linear-gradient(
+    to right,
+    #f9ce34,
+    #ee2a7b,
+    #6228d7
+  );
+  background: linear-gradient(
+    #f9ce34,
+    #ee2a7b,
+    #6228d7
+  ); */
+  background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%)
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
