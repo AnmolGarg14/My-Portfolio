@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { github } from "../assets";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
@@ -120,6 +121,20 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className='absolute pt-80 mt-52 ml-80 flex justify-center m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div>
+
         </form>
       </motion.div>
 
