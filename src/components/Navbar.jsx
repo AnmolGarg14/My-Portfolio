@@ -92,7 +92,7 @@ const Navbar = () => {
                     "_blank"
                   )
                 }
-                className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-slate-950 bg-sky-600"
+                className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-sky-600"
               >
                 <img
                   src={linkedin}
@@ -178,7 +178,7 @@ const Navbar = () => {
                         "_blank"
                       )
                     }
-                    className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                    className="bg-sky-600 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
                   >
                     <img
                       src={linkedin}
