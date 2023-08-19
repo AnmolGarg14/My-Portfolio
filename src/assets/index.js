@@ -31,6 +31,7 @@ import technohacks from "./company/technohacks.png";
 
 import foodweb from "./foodweb.png";
 import easyshare from "./easyshare.png";
+import currency from "./currency.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -63,6 +64,7 @@ export {
   internnexus,
   technohacks,
   foodweb,
+  currency,
   easyshare,
   tripguide,
 };
