@@ -32,7 +32,7 @@ import technohacks from "./company/technohacks.png";
 import foodweb from "./foodweb.png";
 import easyshare from "./easyshare.png";
 import currency from "./currency.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.png";
 
 export {
   logo,
@@ -66,5 +66,5 @@ export {
   foodweb,
   currency,
   easyshare,
-  tripguide,
+  dashboard,
 };

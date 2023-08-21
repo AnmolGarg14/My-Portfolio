@@ -20,6 +20,7 @@ import {
   foodweb,
   easyshare,
   currency,
+  dashboard,
   threejs,
 } from "../assets";
 
@@ -239,6 +240,23 @@ const projects = [
     ],
     image: currency,
     source_code_link: "https://github.com/AnmolGarg14/Currency-Converter",
+  },
+  {
+    name: "Power BI Dashboards",
+    description:
+      "Empowering data-driven decision-making with dynamic Power BI dashboards. Transforming complex information into actionable insights, driving efficiency and informed strategies.",
+    tags: [
+      {
+        name: "powerbi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "powerqueryeditor",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link: "https://github.com/AnmolGarg14/Power-BI-Dashboards",
   },
 ];
 
