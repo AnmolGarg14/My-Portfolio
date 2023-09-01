@@ -28,6 +28,7 @@ import threejs from "./tech/threejs.svg";
 
 import internnexus from "./company/internnexus.png";
 import technohacks from "./company/technohacks.png";
+import codsoft from "./company/codsoft.png";
 
 import foodweb from "./foodweb.png";
 import easyshare from "./easyshare.png";
@@ -63,6 +64,7 @@ export {
   mysql,
   internnexus,
   technohacks,
+  codsoft,
   foodweb,
   currency,
   easyshare,

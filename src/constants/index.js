@@ -17,6 +17,7 @@ import {
   mysql,
   internnexus,
   technohacks,
+  codsoft,
   foodweb,
   easyshare,
   currency,
@@ -116,10 +117,22 @@ const technologies = [
 const experiences = [
   {
     title: "Web Developer",
+    company_name: "CodSoft",
+    icon: codsoft,
+    iconBg: "#E6DEDD",
+    date: "Sept 2023 - Present",
+    points: [
+      "Participating in the development and upkeep of web applications, utilizing a mix of technologies to accomplish various tasks.",
+      "Demonstrating capability in web application development through the successful execution of assigned responsibilities.",
+      "Implementing responsive design techniques to guarantee smooth user experiences across different browsers.",
+    ],
+  },
+  {
+    title: "Web Developer",
     company_name: "TechnoHacks",
     icon: technohacks,
     iconBg: "#E6DEDD",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Sept 2023",
     points: [
       "Participating in the development and upkeep of web applications, utilizing a mix of technologies to accomplish various tasks.",
       "Demonstrating capability in web application development through the successful execution of assigned responsibilities.",
