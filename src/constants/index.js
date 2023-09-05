@@ -19,6 +19,7 @@ import {
   technohacks,
   codsoft,
   foodweb,
+  admin,
   easyshare,
   currency,
   dashboard,
@@ -207,6 +208,27 @@ const projects = [
     image: foodweb,
     source_code_link:
       "https://github.com/AnmolGarg14/Food-Ordering-Web-Application",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "It is designed to simplify complex tasks. It acts as a bridge between the data, users, and operational objectives, providing a unified interface that allows admin to manage, monitor, and optimize various aspects of the project.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: admin,
+    source_code_link: "https://github.com/AnmolGarg14/React-Admin-Dashboard",
   },
   {
     name: "File Sharing",

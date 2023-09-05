@@ -31,6 +31,7 @@ import technohacks from "./company/technohacks.png";
 import codsoft from "./company/codsoft.png";
 
 import foodweb from "./foodweb.png";
+import admin from "./admin.png";
 import easyshare from "./easyshare.png";
 import currency from "./currency.png";
 import dashboard from "./dashboard.png";
@@ -66,6 +67,7 @@ export {
   technohacks,
   codsoft,
   foodweb,
+  admin,
   currency,
   easyshare,
   dashboard,
