@@ -269,69 +269,69 @@ const projects = [
     image: admin,
     source_code_link: "https://github.com/AnmolGarg14/React-Admin-Dashboard",
   },
-  {
-    name: "File Sharing",
-    description:
-      "Web-based platform that enables users to upload, send, and manage files of various types and sizes, offering a streamlined and effective solution for transferring digital content.",
-    tags: [
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-    ],
-    image: easyshare,
-    source_code_link: "https://github.com/AnmolGarg14/EasyShare",
-  },
-  {
-    name: "Currency Converter",
-    description:
-      "A comprehensive currency converter website that allows users to quickly convert currencies, and access real-time currency conversion tools.",
-    tags: [
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: currency,
-    source_code_link: "https://github.com/AnmolGarg14/Currency-Converter",
-  },
-  {
-    name: "Power BI Dashboards",
-    description:
-      "Empowering data-driven decision-making with dynamic Power BI dashboards. Transforming complex information into actionable insights, driving efficiency and informed strategies.",
-    tags: [
-      {
-        name: "powerbi",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "powerqueryeditor",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: dashboard,
-    source_code_link: "https://github.com/AnmolGarg14/Power-BI-Dashboards",
-  },
+  // {
+  //   name: "File Sharing",
+  //   description:
+  //     "Web-based platform that enables users to upload, send, and manage files of various types and sizes, offering a streamlined and effective solution for transferring digital content.",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: easyshare,
+  //   source_code_link: "https://github.com/AnmolGarg14/EasyShare",
+  // },
+  // {
+  //   name: "Currency Converter",
+  //   description:
+  //     "A comprehensive currency converter website that allows users to quickly convert currencies, and access real-time currency conversion tools.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: currency,
+  //   source_code_link: "https://github.com/AnmolGarg14/Currency-Converter",
+  // },
+  // {
+  //   name: "Power BI Dashboards",
+  //   description:
+  //     "Empowering data-driven decision-making with dynamic Power BI dashboards. Transforming complex information into actionable insights, driving efficiency and informed strategies.",
+  //   tags: [
+  //     {
+  //       name: "powerbi",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "powerqueryeditor",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: dashboard,
+  //   source_code_link: "https://github.com/AnmolGarg14/Power-BI-Dashboards",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
