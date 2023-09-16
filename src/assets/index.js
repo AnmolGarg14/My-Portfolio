@@ -18,6 +18,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import c from "./tech/c.png";
 import mysql from "./tech/mysql.png";
 import redux from "./tech/redux.png";
@@ -31,6 +32,7 @@ import technohacks from "./company/technohacks.png";
 import codsoft from "./company/codsoft.png";
 
 import foodweb from "./foodweb.png";
+import promptify from "./promptify.png";
 import admin from "./admin.png";
 import easyshare from "./easyshare.png";
 import currency from "./currency.png";
@@ -56,6 +58,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -67,6 +70,7 @@ export {
   technohacks,
   codsoft,
   foodweb,
+  promptify,
   admin,
   currency,
   easyshare,

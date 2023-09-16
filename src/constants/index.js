@@ -7,6 +7,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   tailwind,
   nodejs,
   mongodb,
@@ -19,6 +20,7 @@ import {
   technohacks,
   codsoft,
   foodweb,
+  promptify,
   admin,
   easyshare,
   currency,
@@ -84,6 +86,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -212,6 +218,35 @@ const projects = [
     image: foodweb,
     source_code_link:
       "https://github.com/AnmolGarg14/Food-Ordering-Web-Application",
+  },
+  {
+    name: "Prompt Sharing",
+    description:
+      "Promptify is an open-source AI prompting tool for modern world to discover, create and share creative prompts.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: promptify,
+    source_code_link: "https://github.com/AnmolGarg14/Prompt-Sharing",
   },
   {
     name: "Admin Dashboard",
