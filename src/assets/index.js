@@ -30,6 +30,7 @@ import threejs from "./tech/threejs.svg";
 import internnexus from "./company/internnexus.png";
 import technohacks from "./company/technohacks.png";
 import codsoft from "./company/codsoft.png";
+import internnexus from "./company/mbt.svg";
 
 import foodweb from "./foodweb.png";
 import promptify from "./promptify.png";
@@ -67,6 +68,7 @@ export {
   c,
   mysql,
   internnexus,
+  mbt,
   technohacks,
   codsoft,
   foodweb,
