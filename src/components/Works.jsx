@@ -13,6 +13,7 @@ const ProjectCard = ({
   index,
   name,
   description,
+  url,
   tags,
   image,
   source_code_link,
