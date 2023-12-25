@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -51,7 +51,7 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <Link href={url}>
+        <Link to={url}>
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
