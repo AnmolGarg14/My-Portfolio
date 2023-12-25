@@ -30,10 +30,11 @@ import threejs from "./tech/threejs.svg";
 import internnexus from "./company/internnexus.png";
 import technohacks from "./company/technohacks.png";
 import codsoft from "./company/codsoft.png";
-import mbt from "./company/mbt.svg";
+import mbtlogo from "./company/mbt.svg";
 
 import foodweb from "./foodweb.png";
 import promptify from "./promptify.png";
+import mbt from "./mbt.png";
 import admin from "./admin.png";
 import easyshare from "./easyshare.png";
 import currency from "./currency.png";
@@ -68,11 +69,12 @@ export {
   c,
   mysql,
   internnexus,
-  mbt,
+  mbtlogo,
   technohacks,
   codsoft,
   foodweb,
   promptify,
+  mbt,
   admin,
   currency,
   easyshare,

@@ -17,9 +17,10 @@ import {
   c,
   mysql,
   internnexus,
-  mbt,
+  mbtlogo,
   technohacks,
   codsoft,
+  mbt,
   foodweb,
   promptify,
   admin,
@@ -130,7 +131,7 @@ const experiences = [
   {
     title: "Web Developer & Designer Intern",
     company_name: "MBT LOGISTICS",
-    icon: mbt,
+    icon: mbtlogo,
     iconBg: "#E6DEDD",
     date: "Sept 2023 - Oct 2023",
     points: [
@@ -183,7 +184,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Food Ordering",
+    name: "Logistics Website (MBT LOGISTICS)",
+    description:
+      "MBT Logistics is a web-based platform that allows users to browse, and track their consignments, and contact our customer support easily online with the given form.",
+    url: "https://mbt-logistics.vercel.app/",
+    tags: [
+      {
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mbt,
+    source_code_link: "https://github.com/AnmolGarg14/MBT-Logistics",
+  },
+  {
+    name: "Food Ordering Website (ZAYKAA)",
     description:
       "Web-based platform that allows users to browse, order, and manage a variety of delicious dishes from the restaurant, offering a convenient and efficient solution for satisfying culinary cravings.",
     tags: [
@@ -212,6 +243,7 @@ const projects = [
     name: "Prompt Sharing",
     description:
       "Promptify is an open-source AI prompting tool for modern world to discover, create and share creative prompts.",
+    url: "https://promptifyshare.vercel.app/",
     tags: [
       {
         name: "nextjs",
@@ -241,6 +273,7 @@ const projects = [
     name: "Admin Dashboard",
     description:
       "It is designed to simplify complex tasks. It acts as a bridge between the data, users, and operational objectives, providing a unified interface that allows admin to manage, monitor, and optimize various aspects of the project.",
+    url: "https://iamadmin.vercel.app/",
     tags: [
       {
         name: "react",
